@@ -52,19 +52,18 @@ education:
     start: 2022-08-01
     end: 2024-06-30
     summary: |
-      Thesis on metabolic dysfunction-associated steatotic liver disease.
+      Master's thesis on metabolic dysfunction-associated steatotic liver disease.
     button:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
 
-  - degree: BS Nutrition
+  - degree: BSc Nutrition
     institution: UiT The Arctic University of Norway
     start: 2019-08-01
     end: 2022-06-30
     summary: |
-      Bachelor's thesis on the effects of a ketogenic diet on metabolic health.
-    button:
+      Bachelor's thesis on HDL-Cholesterol and Mendelian Randomization studies.
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray  
