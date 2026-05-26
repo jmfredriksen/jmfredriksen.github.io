@@ -1,25 +1,29 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
   display: John Martin Fredriksen
   given: John Martin
   family: Fredriksen
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: 
+  alternate: ""
+  pronunciation: ""
+  pronouns: ""
+
 postnominals:
   - RD
   - MSc
+
 status:
   icon: "🥼"
+
 role: Clinical Dietitian
+
 bio: |
   John Martin Fredriksen, RD, MS, is a registered clinical dietitian 
   working in hematology and transplantation at the Karolinska University
   Hospital in Stockholm, and in the prevention and treatment of obesity 
   and chronic disease at Re-start.no.
-
 
 affiliations:
   - name: Karolinska University Hospital
@@ -27,21 +31,14 @@ affiliations:
   - name: Re-start.no
     url: https://www.re-start.no/
 
-
 links:
   - icon: at-symbol
     url: mailto:johnmf94@icloud.com
     label: E-mail Me
-  #- icon: brands/x
-  #  url: https://x.com/jmfredriksen
   - icon: brands/github
     url: https://github.com/jmfredriksen
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/jmfredriksen/
-  #- icon: academicons/google-scholar
-  #  url: https://scholar.google.com/citations?user=example
-  #- icon: academicons/orcid
-  #  url: https://orcid.org/0000-0002-1825-0097
 
 interests:
   - Nutrition Support
@@ -55,63 +52,19 @@ education:
     start: 2022-08-01
     end: 2024-06-30
     summary: |
-      Thesis on metabolic dysfunction-associated steatotic liver diesease.
+      Thesis on metabolic dysfunction-associated steatotic liver disease.
     button:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
+
   - degree: BS Nutrition
     institution: UiT The Arctic University of Norway
     start: 2019-08-01
     end: 2022-06-30
-
-
-experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      Bachelor's thesis on the effects of a ketogenic diet on metabolic health.
     button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+      text: Download dissertation
+      url: /resume.pdf
+      icon: hero/arrow-down-tray  
