@@ -52,22 +52,19 @@ interests:
 education:
   - degree: MSc Clinical Nutrition
     institution: UiT The Arctic University of Norway
-    start: 2015-09-01
-    end: 2019-06-30
+    start: 2022-08-01
+    end: 2024-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Thesis on metabolic dysfunction-associated steatotic liver diesease.
     button:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: BS Nutrition
+    institution: UiT The Arctic University of Norway
+    start: 2019-08-01
+    end: 2022-06-30
+
 
 experience:
   - role: Senior AI Research Scientist
