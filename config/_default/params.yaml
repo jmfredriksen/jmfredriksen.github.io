@@ -21,9 +21,9 @@ hugoblox:
     avatar_shape: circle
   header:
     enable: true
-    style: navbar-simple
+    style: navbar
     sticky: true
-    align: right
+    align: center
     search: true
     theme_toggle: true
     language_switcher: false

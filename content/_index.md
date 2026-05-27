@@ -4,16 +4,20 @@ summary: ""
 date: "2022-10-24"
 type: "landing"
 sections:
-  - block: "resume-biography"
+  - block: "resume-biography-3"
     content:
       username: "me"
-    ce: "section-3-resume-biography"
-    As: "section-3acedb5e"
-  - block: "resume-experience"
-    content:
-      username: "me"
-    ce: "section-3-resume-experience"
-    As: "section-d5d70226"
+    ce: "section-2-resume-biography-3"
+    design:
+      name:
+        size: "md"
+      avatar:
+        shape: "circle"
+        size: "medium"
+    As: "section-324a6136"
+  - block: "comparison-table"
+    ce: "section-3-comparison-table"
+    As: "section-d302d9b9"
   - block: "collection"
     content:
       count: 3
@@ -42,6 +46,4 @@ sections:
         button: {}
     ce: "section-1-contact-info"
     As: "section-7646c72b"
-
 ---
-
