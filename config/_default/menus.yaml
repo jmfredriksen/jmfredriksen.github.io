@@ -10,9 +10,9 @@ main:
     weight: 10
   - name: Blog
     identifier: 461ef24f
-    url: Blog/
+    url: /blog/
     weight: 20
   - name: Contributions
-    identifier: contributions
+    identifier: projects
     url: /projects/
     weight: 30
