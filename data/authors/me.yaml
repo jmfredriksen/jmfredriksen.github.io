@@ -14,10 +14,7 @@ postnominals:
 status:
   icon: "🥼"
 role: "Clinical Dietitian"
-bio: >-
-  John Martin Fredriksen, RD, MS, is a registered clinical dietitian working in hematology
-  and transplantation at Karolinska University Hospital in Stockholm, and in the prevention
-  and treatment of obesity and chronic disease at Re-start.no.
+bio: "John Martin Fredriksen, RD, MS, is a registered clinical dietitian working in hematology and transplantation at Karolinska University Hospital in Stockholm, and in the prevention and treatment of obesity and chronic disease at Re-start.no."
 affiliations:
   - name: "Karolinska University Hospital"
     url: "https://www.karolinska.se/en/karolinska-university-h"
@@ -45,3 +42,19 @@ education:
     start: "2019–2022"
 ids:
   openalex: "0009-0009-3102-9846"
+experience:
+  - role: "Clinical Dietitian"
+    org: "Karolinska University Hospital"
+    start: "2026"
+    end: ""
+    summary: "Hematology & Transplantation"
+languages:
+  - name: "English"
+    level: null
+    label: "Fluent"
+  - name: "Norwegian"
+    level: null
+    label: "Native"
+  - name: "Swedish"
+    level: null
+    label: "Fluent"

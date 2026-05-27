@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: 'John Martin Fredriksen'
+title: "John Martin Fredriksen"
 # Website URL
-baseURL: 'https://jmfredriksen.github.io/'
+baseURL: "https://jmfredriksen.github.io/"
 
 ############################
 ## LANGUAGE
