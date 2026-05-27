@@ -32,6 +32,24 @@ sections:
       show_read_more: true
       fill_image: true
     As: "section-ab67adb3"
+  - block: "collection"
+    content:
+      count: 3
+      offset: 0
+      sort_by: "Date"
+      sort_ascending: false
+      title: "Publications"
+      filters:
+        folders:
+          - "publications"
+    design:
+      view: "citation"
+      show_date: true
+      show_read_time: false
+      show_read_more: true
+      fill_image: false
+    ce: "section-4-collection"
+    As: "section-462434f6"
   - block: "contact-info"
     content:
       title: "Contact"
@@ -43,6 +61,4 @@ sections:
         button: {}
     ce: "section-1-contact-info"
     As: "section-7646c72b"
-
 ---
-
