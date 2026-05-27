@@ -15,9 +15,6 @@ sections:
         shape: "circle"
         size: "medium"
     As: "section-324a6136"
-  - block: "comparison-table"
-    ce: "section-3-comparison-table"
-    As: "section-d302d9b9"
   - block: "collection"
     content:
       count: 3
@@ -46,6 +43,4 @@ sections:
         button: {}
     ce: "section-1-contact-info"
     As: "section-7646c72b"
-
 ---
-
