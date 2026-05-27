@@ -1,69 +1,47 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
-
 name:
-  display: John Martin Fredriksen
-  given: John Martin
-  family: Fredriksen
+  display: "John Martin Fredriksen"
+  given: "John Martin"
+  family: "Fredriksen"
   alternate: ""
   pronunciation: ""
   pronouns: ""
-
 postnominals:
-  - RD
-  - MSc
-
+  - "RD"
+  - "MSc"
 status:
   icon: "🥼"
-
-role: Clinical Dietitian
-
-bio: |
-  John Martin Fredriksen, RD, MS, is a registered clinical dietitian 
-  working in hematology and transplantation at the Karolinska University
-  Hospital in Stockholm, and in the prevention and treatment of obesity 
-  and chronic disease at Re-start.no.
-
+role: "Clinical Dietitian"
+bio: >-
+  John Martin Fredriksen, RD, MS, is a registered clinical dietitian working in hematology
+  and transplantation at Karolinska University Hospital in Stockholm, and in the prevention
+  and treatment of obesity and chronic disease at Re-start.no.
 affiliations:
-  - name: Karolinska University Hospital
-    url: https://www.karolinska.se/en/karolinska-university-h
-  - name: Re-start.no
-    url: https://www.re-start.no/
-
+  - name: "Karolinska University Hospital"
+    url: "https://www.karolinska.se/en/karolinska-university-h"
+  - name: "Re-start.no"
+    url: "https://www.re-start.no/"
 links:
-  - icon: at-symbol
-    url: mailto:johnmf94@icloud.com
-    label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/jmfredriksen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/jmfredriksen/
-
+  - icon: "at-symbol"
+    url: "mailto:johnmf94@icloud.com"
+    label: "E-mail Me"
+  - icon: "brands/github"
+    url: "https://github.com/jmfredriksen"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/jmfredriksen/"
 interests:
-  - Nutrition Support
-  - Obesity, Metabolic Health, and Chronic Disease
-  - Epidemiology and Public Health
-  - Clinical Research and Evidence-Based Practice
-
+  - "Nutrition Support"
+  - "Obesity, Metabolic Health, and Chronic Disease"
+  - "Epidemiology and Public Health"
+  - "Clinical Research and Evidence-Based Practice"
 education:
-  - degree: MSc Clinical Nutrition
-    institution: UiT The Arctic University of Norway
-    start: 2022-08-01
-    end: 2024-06-30
-    summary: |
-      Master's thesis on metabolic dysfunction-associated steatotic liver disease.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-
-  - degree: BSc Nutrition
-    institution: UiT The Arctic University of Norway
-    start: 2019-08-01
-    end: 2022-06-30
-    summary: |
-      Bachelor's thesis on HDL-Cholesterol and Mendelian Randomization studies.
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray  
+  - degree: "MSc Clinical Nutrition"
+    institution: "UiT The Arctic University of Norway"
+    start: "2022–2024"
+  - degree: "BSc Nutrition"
+    institution: "UiT The Arctic University of Norway"
+    start: "2019–2022"
+ids:
+  openalex: "0009-0009-3102-9846"

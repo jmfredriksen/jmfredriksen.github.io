@@ -6,7 +6,7 @@ hugoblox:
     tagline: Clinical Dietitian
     description: John Martin Fredriksen, RD, MS, is a registered clinical dietitian.
   theme:
-    mode: system
+    mode: light
     pack: default
     colors:
       primary: ""
