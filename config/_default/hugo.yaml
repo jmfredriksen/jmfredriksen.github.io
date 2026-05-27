@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: "John Martin Fredriksen"
 # Website URL
-baseURL: "https://jmfredriksen.github.io/"
+baseURL: "https://jmfredriksen.github.io/jmfredriksen.github.io/"
 
 ############################
 ## LANGUAGE

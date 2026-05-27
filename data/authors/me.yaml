@@ -1,4 +1,4 @@
-schema: "hugoblox/author/v2"
+schema: "hugoblox/author/v1"
 slug: "me"
 is_owner: true
 name:
