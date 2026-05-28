@@ -56,12 +56,13 @@ sections:
     As: "section-84f0c060"
   - block: "contact-info"
     content:
-      title: "Contact Us"
+      title: "Contact Me"
       username: "me"
-      visit_title: "Visit Us"
-      connect_title: "Connect"
       show_form: true
-      social: "k"
+      prospective:
+        button: {}
     ce: "section-3-contact-info"
-    As: "section-360ddcce"
+    As: "section-ca2189ab"
+
 ---
+

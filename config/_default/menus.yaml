@@ -18,5 +18,5 @@ main:
     weight: 30
   - name: Contact
     identifier: contact
-    url: /#contact
+    url: "/#contact"
     weight: 40
