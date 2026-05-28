@@ -1,14 +1,13 @@
 ---
 title: Homepage with bio and contact anchors
-summary: ""
 date: 2022-10-24
 design:
   spacing: 6rem
+summary: ""
 type: landing
 sections:
   - block: resume-biography-3
     content:
-        id: bio
         username: me
         text:
           |
@@ -28,6 +27,7 @@ sections:
         avatar:
           size: medium
           shape: circle
+    id: bio
   - block: collection
     content:
         title: Selected publications
@@ -70,11 +70,11 @@ sections:
         show_read_more: true
   - block: contact-info
     content:
-        id: contact
         title: Contact Me
         username: me
         show_form: true
         prospective:
           button: {}
     design: {}
+    id: contact
 ---
