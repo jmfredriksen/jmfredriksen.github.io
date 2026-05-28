@@ -6,7 +6,7 @@
 main:
   - name: Bio
     identifier: 1168fabf
-    url: /
+    url: /#resume-biography-3
     weight: 10
   - name: Blog
     identifier: 461ef24f
