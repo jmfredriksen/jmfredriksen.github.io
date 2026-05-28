@@ -47,6 +47,8 @@ sections:
       sort_by: "Date"
       sort_ascending: false
       title: "Latest blog posts"
+      filters:
+        folders: ["blog"]
     ce: "section-2-collection"
     design:
       show_date: true

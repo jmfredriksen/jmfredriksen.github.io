@@ -15,8 +15,9 @@ links:
     url: "http://dx.doi.org/10.4045/tidsskr.25.0730"
 featured: false
 tags:
-  - ultra-processed foods
   - upf
+  - ultra-processed foods
+status: published
 
 ---
 
