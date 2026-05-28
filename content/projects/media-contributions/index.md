@@ -1,12 +1,14 @@
 ---
-title: "Media contributions"
-summary: "Selected media articles where I comment on weight loss, obesity treatment, and research interpretation."
-date: "2025-04-20T00:00:00Z"
+title: Media contributions
+summary: Media content where I comment on a variety of topics related to
+  nutrition and health.
+date: 2025-04-20T00:00:00Z
 tags:
   - projects
   - media
   - publications
 featured: true
+
 ---
 
 This page summarizes my media contributions in Norwegian outlets.
