@@ -46,6 +46,23 @@ sections:
       offset: 0
       sort_by: "Date"
       sort_ascending: false
+      title: "Selected projects"
+      text: ""
+      filters:
+        folders:
+          - "projects"
+    design:
+      view: "card"
+      show_date: true
+      show_read_more: true
+    ce: "section-1c-projects"
+    As: "section-3d2f4a61"
+  - block: "collection"
+    content:
+      count: 3
+      offset: 0
+      sort_by: "Date"
+      sort_ascending: false
       title: "Latest blog posts"
       filters:
         folders: ["blog"]
