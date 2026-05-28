@@ -1,5 +1,5 @@
 ---
-title: Homepage with bio and contact anchors
+title: John Martin Fredriksen, RD, MSc
 date: 2022-10-24
 design:
   spacing: 6rem
