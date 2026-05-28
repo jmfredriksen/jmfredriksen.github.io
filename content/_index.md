@@ -1,86 +1,80 @@
 ---
-title: ""
+title: Homepage with bio and contact anchors
 summary: ""
-date: "2022-10-24"
-type: "landing"
+date: 2022-10-24
+design:
+  spacing: 6rem
+type: landing
 sections:
-  - block: "resume-biography-3"
+  - block: resume-biography-3
     content:
-      username: "me"
-      text: |-
-        Welcome to my personal portfolio. I am a registered clinical dietitian working in haematology and transplantation at the Karolinska University Hospital in Stockholm, and in the prevention and treatment of obesity and chronic disease at Re-start.no.
-
-        This site serves as a hub for my work, including scientific publications, media contributions, educational content, and ongoing reflections on clinical practice, nutrition science and methodology.
-      button: {}
-      headings:
-        about: "Bio"
-        interests: ""
-    design:
-      background:
-        gradient_mesh:
-          enable: true
-      name:
-        size: "md"
-      avatar:
-        size: "medium"
-        shape: "circle"
-    ce: "section-79a0c95b"
-    As: "section-ec101a88"
-  - block: "collection"
-    content:
-      title: "Selected publications"
-      text: ""
-      filters:
-        folders:
-          - "publications"
-        exclude_featured: false
-    design:
-      view: "citation"
-    ce: "section-1b1bf482"
-    As: "section-250f35a2"
-  - block: "collection"
-    content:
-      count: 3
-      offset: 0
-      sort_by: "Date"
-      sort_ascending: false
-      title: "Selected projects"
-      text: ""
-      filters:
-        folders:
-          - "projects"
-    design:
-      view: ""
-      show_date: true
-      show_read_more: true
-    ce: "section-1c-projects"
-    As: "section-3d2f4a61"
-  - block: "collection"
-    content:
-      count: 3
-      offset: 0
-      sort_by: "Date"
-      sort_ascending: false
-      title: "Latest blog posts"
-      filters:
-        folders:
-          - "blog"
-    ce: "section-2-collection"
-    design:
-      show_date: true
-      show_read_time: true
-      fill_image: true
-      show_read_more: true
-    As: "section-84f0c060"
-  - block: "contact-info"
-    content:
-      title: "Contact Me"
-      username: "me"
-      show_form: true
-      prospective:
+        id: bio
+        username: me
+        text:
+          |
+            Welcome to my personal portfolio. I am a registered clinical dietitian working in haematology and transplantation at the Karolinska University Hospital in Stockholm, and in the prevention and treatment of obesity and chronic disease at Re-start.no.
+            
+            This site serves as a hub for my work, including scientific publications, media contributions, educational content, and ongoing reflections on clinical practice, nutrition science and methodology.
         button: {}
-    ce: "section-3-contact-info"
-    As: "section-ca2189ab"
-
+        headings:
+          about: Bio
+          interests: ""
+    design:
+        background:
+          gradient_mesh:
+            enable: true
+        name:
+          size: md
+        avatar:
+          size: medium
+          shape: circle
+  - block: collection
+    content:
+        title: Selected publications
+        text: ""
+        filters:
+          folders:
+            - publications
+          exclude_featured: false
+    design:
+        view: citation
+  - block: collection
+    content:
+        count: 3
+        offset: 0
+        sort_by: Date
+        sort_ascending: false
+        title: Selected projects
+        text: ""
+        filters:
+          folders:
+            - projects
+    design:
+        view: ""
+        show_date: true
+        show_read_more: true
+  - block: collection
+    content:
+        count: 3
+        offset: 0
+        sort_by: Date
+        sort_ascending: false
+        title: Latest blog posts
+        filters:
+          folders:
+            - blog
+    design:
+        show_date: true
+        show_read_time: true
+        fill_image: true
+        show_read_more: true
+  - block: contact-info
+    content:
+        id: contact
+        title: Contact Me
+        username: me
+        show_form: true
+        prospective:
+          button: {}
+    design: {}
 ---
-
