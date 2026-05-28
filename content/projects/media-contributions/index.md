@@ -2,7 +2,7 @@
 title: Media contributions
 summary: Media content where I comment on a variety of topics related to
   nutrition and health.
-date: 2025-04-20T00:00:00Z
+date: "2025-04-20T00:00:00Z"
 tags:
   - projects
   - media

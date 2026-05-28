@@ -6,7 +6,7 @@
 main:
   - name: Bio
     identifier: 1168fabf
-    url: /
+    url: /jmfredriksen.github.io
     weight: 10
   - name: Blog
     identifier: 461ef24f
@@ -14,7 +14,7 @@ main:
     weight: 20
   - name: Contact
     identifier: contact
-    url: /#contact
+    url: "/#contact"
     weight: 30
   - name: Contributions
     identifier: projects
