@@ -16,3 +16,7 @@ main:
     identifier: projects
     url: /projects/
     weight: 30
+  - name: Contact
+    identifier: contact
+    url: /#contact
+    weight: 40

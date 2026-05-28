@@ -7,13 +7,15 @@ sections:
   - block: "resume-biography-3"
     content:
       username: "me"
-      text: ""
+      text: |-
+        Welcome to my personal portfolio website.  I am a registered clinical dietitian working in haematology and transplantation at the Karolinska University Hospital in Stockholm, and in the prevention and treatment of obesity and chronic disease at Re-start.no.
+
+        This website serves as a hub for my work, including scientific publications, media contributions, educational content, and ongoing reflections on clinical practice, nutrition science and methodology.
       button:
         text: "Download CV"
         url: "uploads/resume.pdf"
       headings:
-        about: ""
-        education: ""
+        about: "About me"
         interests: ""
     design:
       background:
@@ -52,4 +54,14 @@ sections:
       fill_image: true
       show_read_more: true
     As: "section-84f0c060"
+  - block: "contact-info"
+    content:
+      title: "Contact Us"
+      username: "me"
+      visit_title: "Visit Us"
+      connect_title: "Connect"
+      show_form: true
+      social: "k"
+    ce: "section-3-contact-info"
+    As: "section-360ddcce"
 ---
