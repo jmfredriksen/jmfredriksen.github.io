@@ -43,7 +43,7 @@ sections:
     As: "section-8ef231ef"
   - block: "collection"
     content:
-      count: 3
+      count: 4
       offset: 0
       sort_by: "Date"
       sort_ascending: false
@@ -53,9 +53,11 @@ sections:
         folders:
           - "projects"
     design:
-      view: ""
+      view: "article-grid"
       show_date: true
       show_read_more: true
+      fill_image: true
+      show_read_time: false
     ce: "section-5f45e806"
     As: "section-e701992b"
   - block: "collection"
@@ -73,6 +75,7 @@ sections:
       show_read_time: true
       fill_image: true
       show_read_more: true
+      view: "compact"
     ce: "section-076b9c14"
     As: "section-9835e3bb"
   - block: "contact-info"
