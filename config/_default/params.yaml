@@ -33,18 +33,19 @@ hugoblox:
   # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    mode: light
-    pack: "default"
-
+    # Mode: 'light', 'dark', or 'system' (follows OS preference)
+    mode: system
+    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
+    pack: "minimal"
+    # Optional: Override theme pack colors
     colors:
-      primary: "#003d20"
-
-    colors_light:
-      primary: "#003d20"
-
-    colors_dark:
-      primary: "#003d20"
-
+      primary: ""
+      secondary: ""
+      neutral: ""
+    # Optional: Mode-specific color overrides
+    colors_light: {}
+    colors_dark: {}
+    # Optional: Semantic surface color overrides
     surfaces:
       background: ""
       foreground: ""
@@ -61,7 +62,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Theme pack: name from data/fonts/
-    pack: "academic"
+    pack: "modern"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -71,7 +72,7 @@ hugoblox:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "comfortable"
+    spacing: "compact"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
 
