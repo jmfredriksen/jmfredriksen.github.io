@@ -12,7 +12,7 @@ postnominals:
   - "RD"
   - "MSc"
 role: "Clinical Dietitian, MSc"
-bio: "John Martin Fredriksen, RD, MSc, is a registered clinical dietitian working in hematology and transplantation at Karolinska University Hospital in Stockholm, and in the prevention and treatment of obesity and chronic disease at Re-start.no."
+bio: ""
 affiliations:
   - name: "Karolinska University Hospital"
     url: "https://www.karolinska.se/en/karolinska-university-h"
@@ -21,8 +21,10 @@ affiliations:
 links:
   - icon: "brands/github"
     url: "https://github.com/jmfredriksen"
+    label: "Github"
   - icon: "brands/linkedin"
     url: "https://www.linkedin.com/in/jmfredriksen/"
+    label: "Linkedin"
   - icon: "brands/instagram"
     url: "https://www.instagram.com/jmfredriksen/"
     label: "Instagram"
