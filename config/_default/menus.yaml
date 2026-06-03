@@ -6,11 +6,11 @@
 main:
   - name: Bio
     identifier: bio
-    url: /#bio
+    url: "/#bio"
     weight: 10
   - name: Contact
     identifier: contact
-    url: /#contact
+    url: "/#contact"
     weight: 20
   - name: Projects
     identifier: projects
