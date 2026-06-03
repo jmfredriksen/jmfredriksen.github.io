@@ -60,24 +60,6 @@ sections:
       show_read_time: false
     ce: "section-5f45e806"
     As: "section-e701992b"
-  - block: "collection"
-    content:
-      count: 3
-      offset: 0
-      sort_by: "Date"
-      sort_ascending: false
-      title: "Latest blog posts"
-      filters:
-        folders:
-          - "blog"
-    design:
-      show_date: true
-      show_read_time: true
-      fill_image: true
-      show_read_more: true
-      view: "compact"
-    ce: "section-076b9c14"
-    As: "section-9835e3bb"
   - block: "contact-info"
     content:
       title: "Contact Me"

@@ -6,17 +6,13 @@
 main:
   - name: Bio
     identifier: bio
-    url: "/#bio"
+    url: /#bio
     weight: 10
-  - name: Blog
-    identifier: 461ef24f
-    url: /blog/
-    weight: 20
   - name: Contact
     identifier: contact
-    url: "/#contact"
-    weight: 30
+    url: /#contact
+    weight: 20
   - name: Projects
     identifier: projects
     url: /projects/
-    weight: 40
+    weight: 30
