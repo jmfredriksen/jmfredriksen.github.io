@@ -128,7 +128,6 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
     # For local_business identity type only
     location:
       address:
@@ -198,12 +197,10 @@ hugoblox:
   # Traffic and behavior analytics
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
-    google:
-      measurement_id: "G-9XDCYR5ZQH" # Google Analytics 4: G-XXXXXXXXXX
+    google: {}
     google_tag_manager:
       container_id: "" # GTM-XXXXXXX
-    plausible:
-      domain: ""
+    plausible: {}
     fathom:
       site_id: ""
     pirsch:
@@ -212,6 +209,11 @@ hugoblox:
       project_id: ""
     baidu:
       site_id: ""
+
+  # Umami tracking script insertion via custom_head
+  params:
+    custom_head: |
+      <script defer src="https://cloud.umami.is/script.js" data-website-id="c2da3864-ed74-4edb-be04-d2731f039b8e"></script>
 
   # ────────────────────────────────────────────────────────────────────────────
   # VERIFICATION
