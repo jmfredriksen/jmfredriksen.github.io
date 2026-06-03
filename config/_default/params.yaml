@@ -21,9 +21,8 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Clinical Dietitian, MSc"
     # Site meta description for search engines and social sharing
-    description: |
-      The highly-customizable Hugo Academic theme powered by HugoBlox
-            Kit. Easily create your personal academic website.
+    description: |-
+      The personal portfolio website of John Martin Fredriksen, RD, MSc
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""
@@ -34,7 +33,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: dark
+    mode: light
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "minimal"
     # Optional: Override theme pack colors
@@ -87,7 +86,7 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: center # left | center | right
+    align: right # left | center | right
     # Feature toggles
     search: false
     theme_toggle: false
